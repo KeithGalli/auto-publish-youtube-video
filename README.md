@@ -18,6 +18,8 @@ Once you have your credentials, I encourage you to play around with the YouTube 
 
 You will need to save your user_credentials.json file & your token.pickle file to the directory where you have saved the code from this repo locally.
 
+Environment variables defined in this code will need to be set/replaced with your own values.
+
 ### 3. Upload code to Lambda
 
 Follow along with my [Schedule & Automatically Run Python Code](https://youtu.be/aqnJvXOIr6g) tutorial to learn the basic on creating a Lambda Function.
