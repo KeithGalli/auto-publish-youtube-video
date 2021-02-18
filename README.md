@@ -22,6 +22,8 @@ You will need to save your user_credentials.json file & your token.pickle file t
 
 Follow along with my [Schedule & Automatically Run Python Code](https://youtu.be/aqnJvXOIr6g) tutorial to learn the basic on creating a Lambda Function.
 
+It will also be beneficial to play around with boto3 library in Lambda a bit before attempting to upload this code to your function.
+
 Install the YouTube API Libraries locally by running the following command in your project folder:
 
 ``` pip install -r requirements.txt -t ./resources ```
