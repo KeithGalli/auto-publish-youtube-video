@@ -19,5 +19,10 @@ def get_credentials():
         else:
             print('Failed to Access Token')
             print('Manually create new Token')
+            
+        # Save the credentials for the next run
+        with open('token.pickle', 'wb') as f:
+            print('Saving Credentials for Future Use...')
+            pickle.dump(credentials, f)
 
     return credentials
