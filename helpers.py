@@ -6,7 +6,7 @@ def get_channel_subscribers(youtube, channel_id):
     subscriber_count = int(response['items'][0]['statistics']['subscriberCount'])
     return subscriber_count
 
-def set_video_status(youtube, video_id, status="unlisted"):
+def set_video_status(youtube, video_id, status="no list"):
     request = youtube.videos().update(
         part="status",
         body={"id": video_id, "status": {"privacyStatus": status}}
